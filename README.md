@@ -12,6 +12,7 @@ torchvision==0.15.1+cu117
 --conf: Path to the configuration file for experiment.
 
 ## Arguments in conf file
+```
 --seed: Random seed for the experiment.
 --dataname: Using data (mnist, cifar10, cub, stn, imagenet).
 --num_classes: Class size of the dataset.
@@ -26,6 +27,7 @@ torchvision==0.15.1+cu117
 --forget_idx: The forgetting class.
 --lambda1: $\lambda_1$ in main paper.
 --lambda2: $\lambda_2$ in main paper.
+```
 
 ## Command
 Experiment for MNIST (Download for MNIST will begin in ./data).
