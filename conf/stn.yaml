@@ -1,0 +1,27 @@
+# base
+seed: 1
+
+# data
+dataname: stn
+num_classes: 49
+
+# mncode
+t_mix: 0.1
+
+# model
+model: pretrained-resnet18
+
+# train
+train_batch: 32
+opt: sgd
+epochs: 200
+lr: 0.01
+weight_decay: 5e-4
+scheduler: cosine
+steps: -1
+
+# forget
+forget_idx: [0]
+lambda1: 1e-5
+lambda2: 100.0
+

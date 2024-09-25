@@ -1,0 +1,25 @@
+# base
+seed: 1
+
+# data
+dataname: mnist
+num_classes: 10
+
+# mncode
+t_mix: 0.1
+
+# model
+model: mlp
+
+# train
+train_batch: 128
+opt: sgd
+epochs: 200
+lr: 0.01
+weight_decay: 5e-4
+steps: -1
+
+# forget
+forget_idx: [0]
+lambda1: 1e-3
+lambda2: 10.0

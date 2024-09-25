@@ -1,0 +1,26 @@
+# base
+seed: 0
+
+# data
+dataname: cifar10
+num_classes: 10
+
+# mncode
+t_mix: 0.3
+
+# model
+model: resnet18
+
+# train
+train_batch: 128
+opt: sgd
+epochs: 200
+lr: 0.01
+weight_decay: 5e-4
+scheduler: cosine
+steps: -1
+
+# forget
+forget_idx: [0]
+lambda1: 1e-5
+lambda2: 1e+4
