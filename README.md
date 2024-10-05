@@ -7,7 +7,7 @@ In the forgetting phase, the target class is forgotten by perturbating the model
 ![fig1](./contents/method_overview.png)
 
 
-This repository if code for One-Shot Machine Unlearning with Mnemonic Code.
+This repository is code for One-Shot Machine Unlearning with Mnemonic Code.
 
 ## Environment
 ```
